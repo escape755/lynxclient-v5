@@ -48,7 +48,6 @@ class FastCommandModule : Module("FastCommand", ModuleCategory.Misc) {
         textPacket.message = text
         textPacket.xuid = ""
         textPacket.platformChatId = ""
-        textPacket.needsTranslation = false
 
         session.serverBound(textPacket)
     }

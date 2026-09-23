@@ -1,7 +1,7 @@
 package com.retrivedmods.lynxclient.game.module.combat
 
 import com.retrivedmods.lynxclient.game.InterceptablePacket
-import com.retrivedmods.lynxclientgame.Module
+import com.retrivedmods.lynxclient.game.Module
 import com.retrivedmods.lynxclient.game.ModuleCategory
 import com.retrivedmods.lynxclient.game.entity.*
 import org.cloudburstmc.protocol.bedrock.packet.PlayerAuthInputPacket

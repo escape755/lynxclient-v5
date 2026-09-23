@@ -2,7 +2,7 @@ package com.retrivedmods.lynxclient.game.module.misc
 
 import com.retrivedmods.lynxclient.game.InterceptablePacket
 import com.retrivedmods.lynxclient.game.Module
-import com.retrivedmods.v.game.ModuleCategory
+import com.retrivedmods.lynxclient.game.ModuleCategory
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay

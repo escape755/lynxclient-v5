@@ -4,7 +4,6 @@ import com.retrivedmods.lynxclient.game.InterceptablePacket
 import com.retrivedmods.lynxclient.game.Module
 import com.retrivedmods.lynxclient.game.ModuleCategory
 import com.retrivedmods.lynxclient.game.entity.Player
-import com.retrivedmods.lynxclient.game.friend.FriendManager
 import org.cloudburstmc.math.vector.Vector3f
 import org.cloudburstmc.protocol.bedrock.data.LevelEvent
 import org.cloudburstmc.protocol.bedrock.data.entity.EntityEventType
@@ -188,7 +187,7 @@ class PopCounterModule : Module("PopCounter", ModuleCategory.Misc) {
             return
         }
 
-        val isFriend = FriendManager.isFriend(cached.uuid)
+        val isFriend = false // este proyecto no tiene FriendManager todavia
         val totemWord = if (pops > 1) "totems" else "totem"
         val prefix = if (isFriend) "[-]" else "[+]"
         val prefixColor = if (isFriend) "§c" else "§a"
@@ -216,7 +215,7 @@ class PopCounterModule : Module("PopCounter", ModuleCategory.Misc) {
 
         if (!isEnabled) return
 
-        val isFriend = FriendManager.isFriend(uuid)
+        val isFriend = false // este proyecto no tiene FriendManager todavia
         when {
             isSelf -> {
                 if (countSelf) {
