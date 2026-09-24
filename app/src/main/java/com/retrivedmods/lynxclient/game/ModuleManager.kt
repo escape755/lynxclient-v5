@@ -11,6 +11,7 @@ import com.retrivedmods.lynxclient.game.module.combat.WAuraModule
 import com.retrivedmods.lynxclient.game.module.combat.AntiCrystalModule
 import com.retrivedmods.lynxclient.game.module.combat.HitboxModule
 import com.retrivedmods.lynxclient.game.module.combat.TrollerModule
+import com.retrivedmods.lynxclient.game.module.combat.AutoTotemModule
 import com.retrivedmods.lynxclient.game.module.combat.InfiniteAuraModule
 import com.retrivedmods.lynxclient.game.module.combat.AntiKnockbackModule
 import com.retrivedmods.lynxclient.game.module.combat.AutoclickerModule
@@ -32,6 +33,7 @@ import com.retrivedmods.lynxclient.game.module.misc.RegenerationModule
 import com.retrivedmods.lynxclient.game.module.misc.WeatherControllerModule
 import com.retrivedmods.lynxclient.game.module.misc.PopCounterModule          // NUEVO
 import com.retrivedmods.lynxclient.game.module.misc.FastCommandModule        // NUEVO
+import com.retrivedmods.lynxclient.game.module.misc.ChestStealerModule
 import com.retrivedmods.lynxclient.game.module.motion.AirJumpModule
 import com.retrivedmods.lynxclient.game.module.motion.AntiAFKModule
 import com.retrivedmods.lynxclient.game.module.motion.AutoWalkModule
@@ -82,6 +84,7 @@ object ModuleManager {
             add(CrystalauraModule())
             add(TrollerModule())
             add(CriticModule())
+            add(AutoTotemModule())
             add(CrasherModule())
             add(DamageTextModule())
             add(WAuraModule())
@@ -127,6 +130,7 @@ object ModuleManager {
             add(WeatherControllerModule())
             add(PopCounterModule())        // NUEVO
             add(FastCommandModule())       // NUEVO
+            add(ChestStealerModule())
             //  add(CrasherModule())
             add(MotionVarModule())
             add(PlayerTracerModule())

@@ -2,7 +2,7 @@ package com.retrivedmods.lynxclient.game.module.combat
 
 import com.retrivedmods.lynxclient.game.InterceptablePacket
 import com.retrivedmods.lynxclient.game.Module
-import com.retrivedmodsNexuzClient.game.ModuleCategory
+import com.retrivedmods.lynxclient.game.ModuleCategory
 import com.retrivedmods.lynxclient.game.entity.Entity
 import com.retrivedmods.lynxclient.game.entity.EntityUnknown
 import com.retrivedmods.lynxclient.game.entity.LocalPlayer

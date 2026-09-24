@@ -3,9 +3,9 @@ package com.retrivedmods.lynxclient.game.module.combat
 import com.retrivedmods.lynxclient.game.InterceptablePacket
 import com.retrivedmods.lynxclient.game.Module
 import com.retrivedmods.lynxclient.game.ModuleCategory
-import com.retrivedmodsNexuzClient.game.entity.Entity
+import com.retrivedmods.lynxclient.game.entity.Entity
 import com.retrivedmods.lynxclient.game.entity.LocalPlayer
-import com.retrivedmodsNexuzClient.game.entity.Player
+import com.retrivedmods.lynxclient.game.entity.Player
 import org.cloudburstmc.math.vector.Vector3f
 import org.cloudburstmc.protocol.bedrock.packet.PlayerAuthInputPacket
 import org.cloudburstmc.protocol.bedrock.packet.SetEntityMotionPacket
