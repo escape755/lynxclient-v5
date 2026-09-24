@@ -225,7 +225,6 @@ private fun ChoiceValueContent(value: ListValue) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-@Composable
 private fun StringValueContent(value: StringValue) {
     Column(
         Modifier
@@ -256,6 +255,7 @@ private fun StringValueContent(value: StringValue) {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun FloatValueContent(value: FloatValue) {
     Column(

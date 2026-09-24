@@ -7,7 +7,7 @@ import android.content.Context
 import android.net.Uri
 import com.retrivedmods.lynxclient.application.AppContext
 import com.retrivedmods.lynxclient.game.module.combat.AdvanceCombatAuraModule
-import com.retrivedmods.lynxclient.game.module.combat.WAuraModule
+import com.retrivedmods.lynxclient.game.module.combat.ZAuraModule
 import com.retrivedmods.lynxclient.game.module.combat.AntiCrystalModule
 import com.retrivedmods.lynxclient.game.module.combat.HitboxModule
 import com.retrivedmods.lynxclient.game.module.combat.TrollerModule
@@ -87,7 +87,7 @@ object ModuleManager {
             add(AutoTotemModule())
             add(CrasherModule())
             add(DamageTextModule())
-            add(WAuraModule())
+            add(ZAuraModule())
             add(SpeedModule())
             add(JetPackModule())
             add(ESPModule())
